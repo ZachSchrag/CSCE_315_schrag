@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-image: linear-gradient(90deg, #e3dcc2, #e3dc95, #a6a867); */
+    background-color: darkgray;
+    z-index: 5;
+}
+
+.welcome {
+    position: absolute;
+    width: 35%;
+    top: 2.5%;
+    left: 32.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    color: rgb(0, 0, 0, 0.9);
+    z-index: -2;
+}
+
+.background .profile_image {
+    position: absolute;
+    width: 35%;
+    top: 22.5%;
+    left: 32.5%;
+    z-index: -2;
+}
+
+.background .profile_image img {
+    width: 100%;
+    height: auto;
+}
+
+.background .footer {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+    left: 0%;
+    background-color: white;
+    display: flex;
+    font-size: 1.75vw;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.background .footer .contacts {
+    position: absolute;
+    left: 25%;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    margin-top: 7.5px;
+    z-index: 1;
+}
+
+.background .footer .contacts .item a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact_icon {
+    margin-top: 5px;
+    width: auto;
+    height: 25px;
+}
+
+.background .footer .sites {
+    position: absolute;
+    left: 61%;
+    margin-top: 5px;
+    display: flex;
+    z-index: 1;
+}
+    
+.site_icon {
+    width: auto;
+    height: 80px;
+    margin-right: 45px;
+}
